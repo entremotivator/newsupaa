@@ -1,0 +1,34 @@
+[global]
+# Development mode settings
+developmentMode = false
+showWarningOnDirectExecution = false
+
+[server]
+# Server configuration
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+
+[theme]
+# Light green theme configuration
+primaryColor = "#4caf50"
+backgroundColor = "#f1f8e9"
+secondaryBackgroundColor = "#e8f5e8"
+textColor = "#2e7d32"
+font = "sans serif"
+
+[runner]
+# Runner configuration
+magicEnabled = true
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
